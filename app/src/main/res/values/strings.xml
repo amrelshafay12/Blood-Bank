@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gender">Gender</string>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Blood_Pressure">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="Diabites">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="numbers">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string name="col1">Name</string>
+    <string name="col2">quantity</string>
+    <string name="col3">Blood type</string>
+    <string name="rowname">amr</string>
+    <string name="rowquantity">3</string>
+    <string name="rowbloodtype">A+</string>
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/health"
+        android:fitsSystemWindows="true"
+        tools:context=".BloodDiseases">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="275dp">
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="160dp"
+                    android:layout_height="67dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/hh"
+                    android:text="Anemia"
+                    android:onClick="b1"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.073"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.387"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="160dp"
+                    android:layout_height="67dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/hh"
+                    android:text="Hemophilia"
+                    android:onClick="b2"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.931"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.387"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="160dp"
+                    android:layout_height="67dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/hh"
+                    android:text="Leukocytosis"
+                    android:onClick="b3"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.072"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.546"
+                    tools:ignore="MissingConstraints" />
+
+
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="160dp"
+                    android:layout_height="67dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/hh"
+                    android:text="Leukemia"
+                    android:onClick="b4"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.935"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.546"
+                    tools:ignore="MissingConstraints" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="160dp"
+                    android:layout_height="67dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/hh"
+                    android:text="SCD"
+                    android:onClick="b5"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.072"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.701"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="160dp"
+                    android:layout_height="67dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/hh"
+                    android:text="Thal"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:onClick="b6"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.935"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.701"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="160dp"
+                    android:layout_height="67dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/hh"
+                    android:text="Vwd"
+                    android:onClick="b7"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.072"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.861"
+                    tools:ignore="MissingConstraints" />
+
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="160dp"
+                    android:layout_height="67dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/hh"
+                    android:text="PV"
+                    android:onClick="b8"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.931"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.861"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>

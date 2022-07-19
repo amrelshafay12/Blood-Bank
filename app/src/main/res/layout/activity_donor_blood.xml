@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_blood"
+    android:fitsSystemWindows="true"
+    tools:context=".DonorBlood">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="215dp"
+            android:text="Please Choose Your Blood type"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnedit"
+                android:text="A+"
+                android:onClick="bt1"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                app:backgroundTint="#F88181"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.073"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.387"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnedit"
+                android:text="A-"
+                android:onClick="bt2"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                app:backgroundTint="#F88181"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.931"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.387"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnedit"
+                android:text="AB+"
+                android:onClick="bt3"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                app:backgroundTint="#F88181"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.072"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.546"
+                tools:ignore="MissingConstraints" />
+
+
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnedit"
+                android:text="AB-"
+                android:onClick="bt4"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                app:backgroundTint="#F88181"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.935"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.546"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnedit"
+                android:text="B+"
+                android:onClick="bt5"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                app:backgroundTint="#F88181"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.072"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.701"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnedit"
+                android:text="B-"
+                android:onClick="b6"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                app:backgroundTint="#F88181"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.935"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.701"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnedit"
+                android:text="O+"
+                android:onClick="bt7"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:layout_marginLeft="15dp"
+                app:backgroundTint="#F88181"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.072"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.861"
+                tools:ignore="MissingConstraints" />
+
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="160dp"
+                android:layout_height="67dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btnedit"
+                android:text="O-"
+                android:onClick="bt8"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                app:backgroundTint="#F88181"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.931"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.861"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

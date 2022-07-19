@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_blood"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".register">
+
+
+    <LinearLayout
+        android:layout_marginTop="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            android:id="@+id/Username"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:drawableStart="@drawable/ic_baseline_supervised_user_circle_24"
+            android:background="@drawable/edit_shap"
+            android:hint="user name"
+            android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:id="@+id/Password"
+            android:paddingRight="16dp"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="18dp"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:background="@drawable/edit_shap"
+            android:hint="password"
+            android:drawableLeft="@drawable/ic_baseline_lock_24" />
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:drawablePadding="4dp"
+            android:id="@+id/email"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:background="@drawable/edit_shap"
+            android:hint="email"
+            android:drawableLeft="@drawable/ic_baseline_email_24" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:id="@+id/male"
+                android:textSize="16sp"
+                android:onClick="CheckButton"
+                android:padding="10dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:id="@+id/female"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:onClick="CheckButton"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/CreateAccount"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/btnedit"
+            android:text="Regester"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:onClick="registeration"/>
+
+        <TextView
+            android:id="@+id/Login"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#000C51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text=" you have already account"
+            android:gravity="center_horizontal"
+            android:onClick="Login"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="12dp"
+    app:cardElevation="12dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    app:cardCornerRadius="28dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:focusable="true">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/detail"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="110dp"
+        android:background="@drawable/btnedit"
+        android:text="details"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Amr Mohamed"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="18dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/type1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="A+ "
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:text="Quantity:" />
+
+    <TextView
+        android:id="@+id/phone1"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        tools:text="Amr Mohamed"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textSize="1dp"
+        />
+
+
+</androidx.cardview.widget.CardView>
